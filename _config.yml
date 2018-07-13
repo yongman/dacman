@@ -11,21 +11,22 @@ menu:
 ## ---
 
 #### Widgets
-widgets: 
+widgets:
 - category
 - links
+- rss
 
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
-#### RSS 
+#### RSS
 rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
   enable: false             ## display image logo true/false.
-  src: img/author.jpg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
-favicon: img/yan.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
+  src: /img/avatar.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
+favicon: /img/avatar.png   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
 rss_img: img/rss.png ## size:1920px*200px+. Banner Picture
 
 ### Theme Color 
@@ -48,15 +49,12 @@ toc:
 
 #### Links
 links:
-  土木坛子: https://tumutanzi.com
-  勺子歪歪: https://chenghouwen.com/
+  我的github: https://github.com/yongman
   阮一峰: http://www.ruanyifeng.com/blog/
 
 
-  
-
 #### Comment
-disqus_shortname:  ## e.g. wuchong   your disqus short name.
+disqus_shortname:  xiking-win ## e.g. wuchong   your disqus short name.
 duoshuo_shortname: 
 
 #### Share button
@@ -71,7 +69,7 @@ baidu_analytics:
 google_analytics:
   enable: false
   id: UA-59108758-1      ## e.g. UA-46321946-2 your google analytics ID.
-  site: yanzhiwei.me     ## e.g. wuchong.me your google analytics site or set the value as auto.
+  site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
